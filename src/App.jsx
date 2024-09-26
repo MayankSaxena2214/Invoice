@@ -281,7 +281,7 @@ const App = () => {
             </div>
           </>
         )}
-        <p className='text-center mt-4 text-focus font-bold'>**Empty data indicates you have not filled the form completely**</p>
+        {showInvoice && <p className='text-center mt-4 text-focus font-bold'>**Empty data indicates you have not filled the form completely**</p>}
       </main>
     </>
   );
