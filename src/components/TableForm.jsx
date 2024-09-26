@@ -27,7 +27,7 @@ const TableForm = ({setTotal,total,setList,list,description,setDescription,quant
         description:description,
         quantity:quantity,
         price:price,
-        amount,amount,
+        amount:amount,
       }
       setDescription("");
       setAmount("");
