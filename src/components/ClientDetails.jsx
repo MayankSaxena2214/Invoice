@@ -1,0 +1,16 @@
+import React from 'react'
+
+const ClientDetails = ({clientName,clientAddress}) => {
+  return (
+    <>
+          
+         <section className='mt-10'>
+              <h2 className='mb-1 text-xl font-bold text-2xl uppercase'>{clientName}</h2>
+              <p>{clientAddress}</p>
+          </section>
+          
+    </>
+  )
+}
+
+export default ClientDetails
