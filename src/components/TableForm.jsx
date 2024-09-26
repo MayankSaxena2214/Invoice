@@ -34,7 +34,7 @@ const TableForm = ({setTotal,total,setList,list,description,setDescription,quant
       setPrice("");
       setQuantity("");
       setList([...list,newItem])
-      setIsEditing(!isEditing);
+      setIsEditing(false);
     }
     const deleteRow=(id)=>{
       const newList=list.filter((element)=>element.id!=id);
